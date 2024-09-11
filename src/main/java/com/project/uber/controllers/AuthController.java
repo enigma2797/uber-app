@@ -59,5 +59,12 @@ public class AuthController {
 		LoginResponseDTO loginResponse = authService.refreshToken(refreshToken);
 
 		return ResponseEntity.ok(loginResponse);
+
+	}
+
+	@GetMapping("/healthcheck")
+	public ResponseEntity<String> healthcheck()
+	{
+		return ResponseEntity.ok("uber app is up");
 	}
 }

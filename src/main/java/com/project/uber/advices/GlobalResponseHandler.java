@@ -27,7 +27,7 @@ public class GlobalResponseHandler implements ResponseBodyAdvice<Object> {
 			ServerHttpResponse response) {
 		// TODO Auto-generated method stub
 		String path = request.getURI().toString();
-		if(path.contains("v3/api-docs"))
+		if(path.contains("v3/api-docs") || path.contains("/healthcheck"))
 			return body;
 		if(body instanceof ApiResponse<?>)
 			return body;
