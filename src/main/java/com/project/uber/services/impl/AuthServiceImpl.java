@@ -2,7 +2,7 @@ package com.project.uber.services.impl;
 
 import java.util.Set;
 
-import com.project.spring_mvc.exceptions.ResourceNotFoundException;
+import com.project.uber.exceptions.ResourceNotFoundException;
 import com.project.uber.dto.*;
 import com.project.uber.entities.Driver;
 import com.project.uber.security.JwtService;
@@ -11,7 +11,6 @@ import org.modelmapper.ModelMapper;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.Authentication;
-import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
@@ -22,8 +21,6 @@ import com.project.uber.repositories.UserRepository;
 
 import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
 
 @Service
 @RequiredArgsConstructor

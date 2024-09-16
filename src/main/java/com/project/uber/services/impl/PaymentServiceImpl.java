@@ -1,9 +1,8 @@
 package com.project.uber.services.impl;
 
-import com.project.spring_mvc.exceptions.ResourceNotFoundException;
+import com.project.uber.exceptions.ResourceNotFoundException;
 import com.project.uber.entities.Payment;
 import com.project.uber.entities.Ride;
-import com.project.uber.entities.enums.PaymentMethod;
 import com.project.uber.entities.enums.PaymentStatus;
 import com.project.uber.repositories.PaymentRepository;
 import com.project.uber.services.PaymentService;

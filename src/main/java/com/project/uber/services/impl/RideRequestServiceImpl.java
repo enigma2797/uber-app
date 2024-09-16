@@ -2,7 +2,7 @@ package com.project.uber.services.impl;
 
 import org.springframework.stereotype.Service;
 
-import com.project.spring_mvc.exceptions.ResourceNotFoundException;
+import com.project.uber.exceptions.ResourceNotFoundException;
 import com.project.uber.entities.RideRequest;
 import com.project.uber.repositories.RideRequestRepository;
 import com.project.uber.services.RideRequestService;

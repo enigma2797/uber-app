@@ -2,7 +2,7 @@ package com.project.uber.services.impl;
 
 import java.util.List;
 
-import com.project.spring_mvc.exceptions.ResourceNotFoundException;
+import com.project.uber.exceptions.ResourceNotFoundException;
 import com.project.uber.dto.*;
 import com.project.uber.entities.*;
 import com.project.uber.entities.enums.RideStatus;

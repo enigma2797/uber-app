@@ -2,16 +2,14 @@ package com.project.uber.services.impl;
 
 import java.util.Random;
 
-import com.project.spring_mvc.exceptions.ResourceNotFoundException;
+import com.project.uber.exceptions.ResourceNotFoundException;
 import com.project.uber.entities.Rider;
 import org.modelmapper.ModelMapper;
 import org.springframework.data.domain.Page;
-import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
 import com.project.uber.dto.RideDTO;
-import com.project.uber.dto.RideRequestDTO;
 import com.project.uber.entities.Driver;
 import com.project.uber.entities.Ride;
 import com.project.uber.entities.RideRequest;

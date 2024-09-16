@@ -1,6 +1,6 @@
 package com.project.uber.services;
 
-import com.project.spring_mvc.exceptions.ResourceNotFoundException;
+import com.project.uber.exceptions.ResourceNotFoundException;
 import com.project.uber.entities.User;
 import com.project.uber.repositories.UserRepository;
 import lombok.RequiredArgsConstructor;

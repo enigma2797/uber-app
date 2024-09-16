@@ -1,6 +1,6 @@
 package com.project.uber.services.impl;
 
-import com.project.spring_mvc.exceptions.ResourceNotFoundException;
+import com.project.uber.exceptions.ResourceNotFoundException;
 import com.project.uber.dto.DriverDTO;
 import com.project.uber.dto.RiderDTO;
 import com.project.uber.entities.Driver;

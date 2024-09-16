@@ -1,4 +1,4 @@
-package com.project.spring_mvc.exceptions;
+package com.project.uber.exceptions;
 
 public class ResourceNotFoundException extends RuntimeException {
 
